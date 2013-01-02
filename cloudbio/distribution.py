@@ -71,13 +71,13 @@ def _setup_ubuntu():
     shared_sources = _setup_deb_general()
     # package information. This is ubuntu/debian based and could be generalized.
     sources = [
-      "deb http://us.archive.ubuntu.com/ubuntu/ %s universe", # unsupported repos
-      "deb http://us.archive.ubuntu.com/ubuntu/ %s multiverse",
-      "deb http://us.archive.ubuntu.com/ubuntu/ %s-updates universe",
-      "deb http://us.archive.ubuntu.com/ubuntu/ %s-updates multiverse",
+      "deb http://au.archive.ubuntu.com/ubuntu/ %s universe", # unsupported repos
+      "deb http://au.archive.ubuntu.com/ubuntu/ %s multiverse",
+      "deb http://au.archive.ubuntu.com/ubuntu/ %s-updates universe",
+      "deb http://au.archive.ubuntu.com/ubuntu/ %s-updates multiverse",
       "deb http://archive.canonical.com/ubuntu %s partner", # partner repositories
       "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen", # mongodb
-      "deb http://watson.nci.nih.gov/cran_mirror/bin/linux/ubuntu %s/", # lastest R versions
+      "deb http://cran.ms.unimelb.edu.au/bin/linux/ubuntu %s/", # lastest R versions
       "deb http://archive.cloudera.com/debian maverick-cdh3 contrib", # Hadoop
       "deb http://archive.canonical.com/ubuntu %s partner", # sun-java
       "deb http://ppa.launchpad.net/freenx-team/ppa/ubuntu %s main", # Free-NX
