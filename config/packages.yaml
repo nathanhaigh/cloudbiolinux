@@ -60,6 +60,8 @@ desktop:
     - synaptic
     - software-center
     - freenx-server
+    - gnome-themes-standard
+    - gnome-themes-extras
     - gnome-backgrounds
     - gnome-terminal
     - firefox
