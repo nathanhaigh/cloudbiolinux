@@ -1,0 +1,24 @@
+---
+# Top level configuration file that specifies which groups of programs
+# should be installed. New sections that are added to individual config
+# files should go here. Comment out any groups you don't want to have 
+# installed.
+#
+# This is the Australian Bioinformatics Network NGS Workshop
+packages:
+  - minimal
+  - desktop
+  - programming
+  - amazon
+  - r
+  - perl
+  - java
+  - bio_search
+  - bio_alignment
+  - bio_nextgen
+  - bio_sequencing
+  - viz
+  - mysql
+  - hdf
+libraries:
+  - r-libs
